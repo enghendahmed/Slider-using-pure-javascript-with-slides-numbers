@@ -9,5 +9,5 @@
 ## prevButton :
 ### it removes active class from all li elements (all slider images) , and adds active class only to the previous slide image (which is previous to the current image).
 ## slideIndicator :
-### (which indicates the Slide Number and it acts as a button). Firstly , it removes active class from all li elements (all slider images) , and adds active class only to the selected slide image (which the user click it's number). secondly
+### (which indicates the Slide Number and it acts as a button). Firstly , slideIndicator removes active class from all li elements (all slider images) , and adds active class only to the selected slide image (which the user click it's number). secondly , slideIndicator changes the slideNumberLabel also . thirdly , slideIndicator checks if this slide image is the last one so slideIndicator will make the nextButton Disabled by adding a disabled class on nextButton , the same as if this slide image is the first one so slideIndicator will make the prevButton Disabled by adding a disabled class on prevButton
 
