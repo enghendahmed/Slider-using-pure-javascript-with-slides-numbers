@@ -1,10 +1,10 @@
 # Slider-using-pure-javascript-with-slides-numbers
 ## It is a pure javascript Slider with numbers of slides . 
 #### this slider has some features like :
-####       - CSS3 smoothly transition (Fade).
-####       - HTML5 (SEO optimised).
-####       - Left / Right Navigation.
-####       - Bullet navigation.
+       - CSS3 smoothly transition (Fade).
+       - HTML5 (SEO optimised).
+       - Left / Right Navigation.
+       - Bullet navigation.
 #### when user click on any number , so the coressponding slide image will be displayed .
 #### the ul (Unordered List) of numbers are the slides numbers . this ul is created and also appended to the HTML page by vanilla javascript.
 
