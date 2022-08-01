@@ -90,3 +90,79 @@ body{
     background-color: rgba(156, 243, 94, 0.95);
     color: #fff;
 }
+
+/***************    Responsive    ***************/
+
+
+/* for small screens and mobiles */
+
+@media (max-width: 480px){
+
+    .slider-container{
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .slider-controls .prev , 
+    .slider-controls .next{
+        width: 20%;
+        font-size: 14px;
+        
+    }
+
+    
+    .slider-controls .indicators{
+        width: 100%;
+    }
+    .slider-controls{
+        width: 80vw;
+    }
+
+    .slider-controls .indicators ul li{
+        font-size: 16px;
+        margin-top: 3px;
+        width: 11%;
+    }
+    
+}
+
+
+/**     medium screens   **/
+@media (min-width: 481px) and (max-width: 768px){
+    .slider-container{
+        height: 40vh;
+        width: 90vw;
+    }
+
+    .slider-controls{
+        width: 90vw;
+    }
+
+    .slider-controls .indicators ul li{
+        width: 12%;
+    }
+
+    .slider-controls .prev , 
+    .slider-controls .next{
+        width: 19%;
+    }
+
+}
+
+/**  Large screens  **/
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .slider-container{
+        height: 50vh;
+        width: 90vw;
+    }
+
+    .slider-controls{
+        width: 90vw;
+    }
+
+    .slider-controls .prev , 
+    .slider-controls .next {
+        font-size: 17px;
+    }
+}
